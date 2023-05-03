@@ -49,7 +49,7 @@ export default function SpringMens() {
                 <div className="flex relative h-full">
 
 
-                  <div className="px-4 py-4 relative z-10 w-full border-4 border-gray-800 bg-gray-900 group i-am-parent">
+                  <div className="px-4 py-4 relative z-10 w-full border-4 border-gray-800 bg-gray-900 hover:border-indigo-500 hover:ring-2 hover:ring-indigo-900 transition-colors duration-200 ease-in-out group i-am-parent">
                     <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1 ">
                       {project.icon}
                     </h2>
