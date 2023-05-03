@@ -50,7 +50,7 @@ export default function SpringMC() {
 
 
                   <div className="px-4 py-4 relative z-10 w-full border-4 border-gray-800 bg-gray-900 hover:border-indigo-500 hover:ring-2 hover:ring-indigo-900 transition-colors duration-200 ease-in-out group i-am-parent">
-                    <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1 ">
+                    <h2 className="tracking-widest text-lg title-font font-medium mb-1 ">
                       {project.icon}
                     </h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3 opacity-0 i-am-child group-hover:opacity-100 ">
