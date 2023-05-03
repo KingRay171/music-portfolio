@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHollyBerry, faMenorah, faMoon } from "@fortawesome/free-solid-svg-icons"
+import { faHollyBerry, faMenorah, faMoon} from "@fortawesome/free-solid-svg-icons"
 import React from "react";
 
 
@@ -25,22 +25,22 @@ export default function WinterCC() {
           link: "https://www.jwpepper.com/Under-Winter-Moon/10355972.item#.ZFBn-c7MK3A",
           description:["arr: Andy Beck", "Piano: Eli Wasserman", "Cello: Hannah Choi"],
           icon: <FontAwesomeIcon icon={faMoon} size="3x"/>,
-        },
+        }
       ];
 
 
 
   return (
-          <div>
-            <h1 className="title-font text-lg font-medium text-white mb-3 ">Concert Choir</h1>
+    <main className="py-14">
+          <h1 className="title-font text-lg font-medium text-white mb-4">Concert Choir</h1>
+          <div className="flex flex-wrap -m-4">
+
             {projects.map((project) => (
               <a
                 href={project.link}
-                key={project.image}
-                className="sm:w-11/12 p-2">
-                <div className="flex relative">
+                className="sm:w-1/2 w-100 p-4">
 
-
+                <div className="flex relative h-full">
                   <div className="px-4 py-4 relative z-10 w-full border-4 border-gray-800 bg-gray-900 group i-am-parent">
                     <h2 className="tracking-widest text-lg title-font font-medium text-green-400 mb-1 ">
                       {project.icon}
@@ -57,6 +57,6 @@ export default function WinterCC() {
               </a>
             ))}
             </div>
-
+            </main>
   );
 }

@@ -1,37 +1,37 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBaby, faGifts, faSleigh, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faPersonPraying, faHeartCrack, faSailboat, faChurch } from '@fortawesome/free-solid-svg-icons'
 import React from "react";
 
 
-export default function WinterMens() {
+export default function SpringMens() {
 
 
     const projects = [
         {
-          title: "Santa, Bring my Baby Back",
-          link: "https://www.jwpepper.com/Santa%2C-Bring-My-Baby-Back/10511006.item",
-          description: ["arr: Ryon O'Connell", "Piano: Ross Rawlings"],
-          icon: <FontAwesomeIcon icon={faBaby} size="3x" />,
-        },
-        {
-          title: "You're a Mean One, Mr. Grinch",
-          link: "https://www.jwpepper.com/You%27re-a-Mean-One%2C-Mr.-Grinch/3262102.item",
-          description:["arr: Jeff Funk", "Piano: Ross Rawlings", "Soloist: Ethan Wentworth"],
-          icon: <FontAwesomeIcon icon={faGifts} size="3x"/>,
-        },
-        {
-          title: "A Holly Jolly Christmas",
-          link: "https://www.jwpepper.com/A-Holly-Jolly-Christmas/10510983.item",
-          description:["arr: Greg Gilpin", "Piano: Ross Rawlings"],
-          icon: <FontAwesomeIcon icon={faSleigh} size="3x"/>,
-        },
-        {
-          title: "Do You Hear What I Hear?",
-          link: "https://www.jwpepper.com/Do-You-Hear-What-I-Hear/11303227F.item",
-          description:["arr: Harry Simeone", "Piano: Aaron Jung"],
-          icon: <FontAwesomeIcon icon={faStar} size="3x"/>,
-        }
+            title: "Gloria",
+            link: "https://www.jwpepper.com/Gloria/3299691.item",
+            description: ["By: Eugene Butler", "Piano: Isaiah Shim"],
+            icon: <FontAwesomeIcon icon={faPersonPraying} size="3x" />,
+          },
+          {
+            title: "Down in the Valley",
+            link: "https://www.jwpepper.com/Down-in-the-Valley/1293828.item",
+            description:["arr: George Mead", "Piano: Isaiah Shim"],
+            icon: <FontAwesomeIcon icon={faHeartCrack} size="3x"/>,
+          },
+          {
+            title: "The Wellerman",
+            link: "https://www.jwpepper.com/The-Wellerman/11339530.item",
+            description:["arr: Michael Ware", "Solo: Nishith Tripathi"],
+            icon: <FontAwesomeIcon icon={faSailboat} size="3x"/>,
+          },
+          {
+            title: "Ride the Chariot",
+            link: "https://www.jwpepper.com/Ride-the-Chariot/568170.item",
+            description:["arr: William Henry Smith", "Soloists: Maxwell Ryon, Ethan Wentworth"],
+            icon: <FontAwesomeIcon icon={faChurch} size="3x"/>,
+          },
       ];
 
 
